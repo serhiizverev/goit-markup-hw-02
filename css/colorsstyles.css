@@ -1,0 +1,107 @@
+:root {
+ --head-and-subhead-color: #212121;
+ --paragraf-color: #757575;
+ --accent-color: #2196F3;
+ --icons-color: #AFB1B8;
+ --background-color-footer: #2F303A;
+ --background-text-footer: #ffffff;
+}
+
+/* цвет текстов:
+#2196F3; - ссылки, кнопки и обводки
+#212121 заголовки и подзаоловки - первичный цвет;
+#757575; - параграфы - вторичный цвет
+#AFB1B8; - все иконки
+rgba(255, 255, 255, 0.6);
+
+background color:
+основной - #FFFFFF;
+вторичный - #F5F4FA;
+футер - #2F303A;
+*/
+
+body, 
+.link,
+.figcap-title,
+.link-portfolio {
+ color: var(--head-and-subhead-color);
+}
+
+
+.command {
+ background: #F5F4FA;
+}
+
+footer {
+ color: var(--background-text-footer);
+ background: var( --background-color-footer);
+}
+
+.logo {
+ color: #000000;
+}
+
+.logowite,
+.doing-txt {
+ color: var(--background-text-footer);
+}
+
+.logowite span,
+.logo span,
+.link:focus, 
+.link:hover,
+.mailtel:focus,
+.mailtel:hover {
+ color: var(--accent-color);
+}
+
+.link:active,
+.mailtel:active,
+.hero-txt, 
+.hero-btn {
+ color: white;
+}
+
+.activ {
+  color: var(--accent-color);
+}
+
+/* временная тень, пока не установлю фоновое изображение */
+.hero-txt,
+.doing-txt {
+ text-shadow: 1px 1px 2px black, 0 0 1em red; 
+}
+
+.mailtel,
+.figcap-discr {
+ color: var(--paragraf-color);
+}
+
+footer .mailtel {
+ color: rgba(255, 255, 255, 0.6);
+}
+
+footer .developed {
+ color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-subscribe a { 
+ color: var(--background-text-footer);
+}
+
+.par-txt {
+ color: var(--paragraf-color)
+}
+
+/*  стили цвета в портфолио */
+
+.link-portfolio:focus,
+.link-portfolio:active {
+  color: white;
+  /* тень временная, пока не сделал обводку */
+  text-shadow: 1px 1px 2px var(--accent-color), 0 0 1em var(--accent-color);
+}
+
+.link-portfolio:hover {
+  color: var(--accent-color);
+}
