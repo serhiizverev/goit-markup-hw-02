@@ -27,7 +27,6 @@ body,
  color: var(--head-and-subhead-color);
 }
 
-
 .command {
  background: #F5F4FA;
 }
@@ -38,16 +37,22 @@ footer {
 }
 
 .logo {
- color: #000000;
+ color: var(--accent-color);
 }
 
-.logowite,
+.logo-white {
+  color: white;
+}
+
+.logo-black {
+ color: black
+}
+
 .doing-txt {
  color: var(--background-text-footer);
 }
 
 .logowite span,
-.logo span,
 .link:focus, 
 .link:hover,
 .mailtel:focus,
