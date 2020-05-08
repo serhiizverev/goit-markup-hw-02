@@ -22,18 +22,13 @@ background color:
 
 body, 
 .link,
-.figcap-title,
+.example-title,
 .link-portfolio {
  color: var(--head-and-subhead-color);
 }
 
 .command {
  background: #F5F4FA;
-}
-
-footer {
- color: var(--background-text-footer);
- background: var( --background-color-footer);
 }
 
 .logo {
@@ -46,6 +41,12 @@ footer {
 
 .logo-black {
  color: black
+}
+
+.hero-btn,
+.features-spy {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 1em red; 
 }
 
 .doing-txt {
@@ -78,9 +79,14 @@ footer {
 }
 
 .mailtel,
-.figcap-discr {
+.example-discr {
  color: var(--paragraf-color);
 }
+
+footer {
+  color: var(--background-text-footer);
+  background: var( --background-color-footer);
+ }
 
 footer .mailtel {
  color: rgba(255, 255, 255, 0.6);
