@@ -96,7 +96,7 @@ footer .developed {
  color: rgba(255, 255, 255, 0.4);
 }
 
-.footer-subscribe a { 
+.subscribe a { 
  color: var(--background-text-footer);
 }
 
